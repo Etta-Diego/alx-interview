@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     """Define function to print statistics"""
     def print_stats(stats: dict, file_size: int) -> None:
-         """Prints the accumulated file size and count of each status code."""
+        """Prints the accumulated file size and count of each status code."""
         print("File size: {:d}".format(filesize))
         for k, v in sorted(stats.items()):
             if v:
